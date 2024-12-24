@@ -57,7 +57,10 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Aditya`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer"]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>Targeting Full stack Developer roles with an organization of high repute with a scope of improving knowledge and further career growth.
+MERN stack (MongoDB, Express.js, React, Node.js) with a strong background in building scalable web applications
+Demonstrated ability to manage and deliver projects efficiently, from initial planning and design to final deployment and maintenance.
+Committed to staying updated with the latest industry trends and technologies, continuously enhancing skills to provide innovative solutions.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
